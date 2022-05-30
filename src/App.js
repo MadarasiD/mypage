@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <div className="App">
-      <h1>React - Tailwind </h1>
+      <Layout>
+          <h1>This my content</h1>
+      </Layout>
+      
     </div>
   );
 }
