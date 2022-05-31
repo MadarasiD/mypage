@@ -1,11 +1,11 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 
 
 const Header = () => {
 
-  const [showMenu , setShowMenu] = useState('md:hidden')
+  const [ showMenu , setShowMenu] = useState('md:hidden')
 
   const menuItems = [
     
@@ -18,7 +18,7 @@ const Header = () => {
       key: 'skills/'
     },
     {
-      title: 'About me',
+      title: 'About',
       key: 'aboutme/'
     },
     {
@@ -35,12 +35,17 @@ const Header = () => {
   return (
     <div className='text-white font-lob'>
 
-      <div className="flex bg-thema justify-between items-center p-2 shadow-lg">
+      <div className={`flex bg-thema justify-between items-center p-2 shadow-lg ${showMenu!=='md:hidden' && 'flex-col'}`}>
         <div className='flex justify-between w-full'>
           <h1 className='text-4xl font-semibold '>M D</h1>
           <button 
           onClick={() => {
-              setShowMenu()
+              if(showMenu=='md:hidden'){
+                setShowMenu('')
+              }
+              else{
+                setShowMenu('md:hidden')
+              }
           }} 
           className='lg:hidden'>MENU</button>
         </div>
@@ -51,6 +56,21 @@ const Header = () => {
           {menuItems.map((item) => {
             return (
               <li className='list-none mx-9'>
+                <Link to={`/${item.key}`}>{item.title}</Link>
+              </li>
+            )
+          })}
+
+        </div>
+
+
+        {/* responsive navbar start */}
+
+        <div className={`md:flex items-center w-full flex-col lg:hidden ${showMenu}`}>
+
+          {menuItems.map((item) => {
+            return (
+              <li className='list-none my-2'>
                 <Link to={`/${item.key}`}>{item.title}</Link>
               </li>
             )
