@@ -1,28 +1,33 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
+
+
 
 const Header = () => {
 
+  const [showMenu , setShowMenu] = useState('md:hidden')
+
   const menuItems = [
+    
     {
       title: 'Home',
-      key: '/'
+      key: 'home/'
     },
     {
       title: 'Skills',
-      key: '/skills'
+      key: 'skills/'
     },
     {
       title: 'About me',
-      key: '/aboutme'
+      key: 'aboutme/'
     },
     {
       title: 'Projects',
-      key: '/projects'
+      key: 'projects/'
     },
     {
       title: 'Contact',
-      key: '/contact'
+      key: 'contact/'
     },
 
   ];
@@ -31,12 +36,17 @@ const Header = () => {
     <div className='text-white font-lob'>
 
       <div className="flex bg-thema justify-between items-center p-2 shadow-lg">
-        <div>
-          <h1 className='text-4xl font-semibold'>M D</h1>
+        <div className='flex justify-between w-full'>
+          <h1 className='text-4xl font-semibold '>M D</h1>
+          <button 
+          onClick={() => {
+              setShowMenu()
+          }} 
+          className='lg:hidden'>MENU</button>
         </div>
 
 
-        <div className='flex'>
+        <div className='flex md:hidden'>
 
           {menuItems.map((item) => {
             return (
