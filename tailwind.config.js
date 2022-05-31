@@ -7,6 +7,8 @@ module.exports = {
       colors:{
         thema: '#373737'
       },
+      
+
       fontFamily : {
         lob : ['Lobster' , 'cursive']
       },

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import {AiOutlineBars} from 'react-icons/ai'
+import Hamburger from 'hamburger-react'
 
 
 const Header = () => {
@@ -37,7 +37,7 @@ const Header = () => {
   return (
     <div className='text-white font-lob'>
 
-      <div className={`flex bg-thema justify-between items-center p-2 shadow-lg ${showMenu === '' && 'md:flex-col'}`}>
+      <div className={`flex bg-thema justify-between items-center p-2 shadow-[#3C3C3C] ${showMenu === '' && 'md:flex-col'}`}>
         <div className='flex justify-between w-full'>
           <h1 className='text-4xl font-semibold '>M D</h1>
           <button
@@ -49,7 +49,7 @@ const Header = () => {
                 setShowMenu('md:hidden')
               }
             }}
-            className='lg:hidden text-3xl'><AiOutlineBars /></button>
+            className='lg:hidden text-3xl'><Hamburger easing="ease-in" /></button>
 
               
         </div>
@@ -59,7 +59,7 @@ const Header = () => {
 
           {menuItems.map((item) => {
             return (
-              <li className={`list-none mx-5 p-1 ${item.key === pathname && 'bg-white text-black rounded-md '}`}>
+              <li className={`list-none mx-5 p-1 hover:scale-125 ${item.key === pathname && 'bg-white text-black rounded-md '}`}>
                 <Link to={`${item.key}`}>{item.title}</Link>
               </li>
             )
