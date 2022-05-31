@@ -32,6 +32,8 @@ const Header = () => {
 
   ];
 
+  const pathname = window.location.pathname
+
   return (
     <div className='text-white font-lob'>
 
@@ -55,7 +57,7 @@ const Header = () => {
 
           {menuItems.map((item) => {
             return (
-              <li className='list-none mx-9'>
+              <li className={`list-none mx-5 p-1 ${item.key==pathname && 'gb-white text-black rounded-md'}`}>
                 <Link to={`/${item.key}`}>{item.title}</Link>
               </li>
             )
