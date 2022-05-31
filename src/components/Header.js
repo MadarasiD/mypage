@@ -1,33 +1,33 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-
+import {AiOutlineBars} from 'react-icons/ai'
 
 
 const Header = () => {
 
-  const [ showMenu , setShowMenu] = useState('md:hidden')
+  const [showMenu, setShowMenu] = useState('md:hidden')
 
   const menuItems = [
-    
+
     {
       title: 'Home',
-      key: 'home/'
+      key: '/'
     },
     {
       title: 'Skills',
-      key: 'skills/'
+      key: '/skills'
     },
     {
       title: 'About',
-      key: 'aboutme/'
+      key: '/aboutme'
     },
     {
       title: 'Projects',
-      key: 'projects/'
+      key: '/projects'
     },
     {
       title: 'Contact',
-      key: 'contact/'
+      key: '/contact'
     },
 
   ];
@@ -37,19 +37,21 @@ const Header = () => {
   return (
     <div className='text-white font-lob'>
 
-      <div className={`flex bg-thema justify-between items-center p-2 shadow-lg ${showMenu!=='md:hidden' && 'flex-col'}`}>
+      <div className={`flex bg-thema justify-between items-center p-2 shadow-lg ${showMenu === '' && 'md:flex-col'}`}>
         <div className='flex justify-between w-full'>
           <h1 className='text-4xl font-semibold '>M D</h1>
-          <button 
-          onClick={() => {
-              if(showMenu=='md:hidden'){
+          <button
+            onClick={() => {
+              if (showMenu === 'md:hidden') {
                 setShowMenu('')
               }
-              else{
+              else {
                 setShowMenu('md:hidden')
               }
-          }} 
-          className='lg:hidden'>MENU</button>
+            }}
+            className='lg:hidden text-3xl'><AiOutlineBars /></button>
+
+              
         </div>
 
 
@@ -57,8 +59,8 @@ const Header = () => {
 
           {menuItems.map((item) => {
             return (
-              <li className={`list-none mx-5 p-1 ${item.key==pathname && 'gb-white text-black rounded-md'}`}>
-                <Link to={`/${item.key}`}>{item.title}</Link>
+              <li className={`list-none mx-5 p-1 ${item.key === pathname && 'bg-white text-black rounded-md '}`}>
+                <Link to={`${item.key}`}>{item.title}</Link>
               </li>
             )
           })}
@@ -68,12 +70,12 @@ const Header = () => {
 
         {/* responsive navbar start */}
 
-        <div className={`md:flex items-center w-full flex-col lg:hidden ${showMenu}`}>
+        <div className={`mt-5 md:flex items-center w-full flex-col lg:hidden ${showMenu}`}>
 
           {menuItems.map((item) => {
             return (
-              <li className='list-none my-2'>
-                <Link to={`/${item.key}`}>{item.title}</Link>
+              <li className={`list-none py-1 ${item.key === pathname && 'bg-white text-black rounded-md' }`}>
+                <Link to={`${item.key}`}>{item.title}</Link>
               </li>
             )
           })}
