@@ -1,11 +1,11 @@
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}", "./index.html"
   ],
   theme: {
     extend: {
-      colours:{
-        theme: '#595959'
+      colors:{
+        thema: '#595959'
       },
       fontFamily : {
         lob : ['Lobster' , 'cursive']

@@ -1,16 +1,18 @@
 import './App.css';
-import {BrowserRouter , Routes , Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes , Route} from 'react-router-dom'
 import Home from './pages/Home'
 import Skills from './pages/Skills'
 import Aboutme from './pages/Aboutme'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 
+
 function App() {
   return (
-    <div className="App">
+    
 
-        <BrowserRouter>
+      
+        <Router>
 
             <Routes>
 
@@ -22,9 +24,8 @@ function App() {
 
             </Routes>
 
-        </BrowserRouter>
-      
-    </div>
+        </Router>
+        
   );
 }
 
