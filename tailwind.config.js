@@ -10,7 +10,7 @@ module.exports = {
       
 
       fontFamily : {
-        lob : ['Lobster' , 'cursive']
+        lob : ['Playfair Display' , 'serif']
       },
       screens: {
         '2xl': {'max': '2535px'},

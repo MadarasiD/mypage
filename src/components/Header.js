@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Hamburger from 'hamburger-react'
 
 
+
 const Header = () => {
 
   const [showMenu, setShowMenu] = useState('md:hidden')
@@ -35,9 +36,9 @@ const Header = () => {
   const pathname = window.location.pathname
 
   return (
-    <div className='text-white font-lob'>
+    <div className='text-white font-lob fixed inset-0 z-50'>
 
-      <div className={`flex bg-thema justify-between items-center p-2 shadow-[#3C3C3C] ${showMenu === '' && 'md:flex-col'}`}>
+      <div className={`navigation flex bg-neutral-800 justify-between items-center p-2 shadow-2xl ${showMenu === '' && 'md:flex-col'}`}>
         <div className='flex justify-between w-full'>
           <h1 className='text-4xl font-semibold '>M D</h1>
           <button
