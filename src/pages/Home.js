@@ -1,11 +1,23 @@
 import React from 'react'
 import Layout from '../components/Layout';
 import '../styles/Home.css'
-import {motion} from 'framer-motion'
+import {FaHtml5, FaCss3, FaReact, FaBootstrap, FaSass, FaGithub, FaNodeJs} from 'react-icons/fa'
+import {SiTailwindcss} from 'react-icons/si'
+import {TbBrandJavascript} from 'react-icons/tb'
+import  TypeWriter  from 'react-simple-typewriter';
+import "react-simple-typewriter/dist/index"
+
+
+
+
+
+
 
 
  
 const Home = () => {
+
+  
   return (
     <Layout>
       <div >
@@ -14,14 +26,16 @@ const Home = () => {
         {/* home section*/}    
         <div className="h-screen bg-neutral-800	">
 
-          <div className="waviy grid md:grid-cols-1 grid-cols-2 items-center transfrom skew-y-12 md:skew-y-0 ">
+          <div className="grid md:grid-cols-1 grid-cols-2 items-center transfrom transition skew-y-12 md:skew-y-0 ">
 
-            <div className=' loader font-bold text-center justify-center md:px-3 '>
-              <h1 className='text-4xl  text-emerald-700	md:text-2xl md:pt-20 animate-pulse'>
-                Hi, my name is <b className='text-emerald-400	text-5xl'>
+            <div className='font-bold text-center justify-center md:px-3 '>
+              <h1 className='text-4xl  text-emerald-700	md:text-2xl md:pt-32 animate-pulse tarnsform transition-all animate-bounce'>
+                Hi, my name is<br /> <b className='text-emerald-400	text-5xl '>
+                
                    Madarasi Dániel</b></h1>
+                   
               
-              <h1 className='text-3xl  text-teal-500	ms:text-xl'>
+              <h1 className='text-3xl  text-teal-500	ms:text-xl tarnsform transition-all animate-bounce'>
                   Frontend <b className='text-red-600'>Developer</b>
               </h1>
             </div>
@@ -72,7 +86,60 @@ const Home = () => {
         {/* Skills */}
 
         <div>
+        
+        <h1 className='text-6xl p-10  text-center underline'>The web development technologies I use</h1>
+        
+            <div className='grid md:grid-cols-2 grid-cols-5 '>
 
+             
+
+                <div className='text-2xl text-center mb-20'>
+                <FaHtml5  size={150} className='w-full text-center text-orange-600	animate-bounce'/>
+                <h3>HTML</h3>
+                </div>
+
+                <div className='text-2xl text-center mb-20'>
+                <FaCss3 size={150} className='w-full text-center text-blue-500 animate-pulse'/>
+                <h3>Css</h3>
+                </div>
+
+                <div className='text-2xl text-center mb-20'>
+                <FaBootstrap  size={150} 	 className='w-full text-center text-violet-600	animate-bounce'/>
+                <h3>Bootstrap</h3>
+                </div>
+
+                <div className='text-2xl text-center'>
+                <FaSass  size={150} 	 className='w-full text-center text-fuchsia-500		animate-pulse'/>
+                <h3>Sass / Sccs </h3>
+                </div>
+
+                <div className='text-2xl text-center mb-20'>
+                <SiTailwindcss  size={150} 	 className='w-full text-center text-sky-500		animate-bounce	'/>
+                <h3>Tailwind-css </h3>
+                </div>
+
+                <div className='text-2xl text-center'>
+                <TbBrandJavascript  size={150} 	 className='w-full text-center text-yellow-500		animate-pulse'/>
+                <h3>Javascript </h3>
+                </div>
+
+                <div className='text-2xl text-center mb-20'>
+                <FaGithub  size={150} 	 className='w-full 		text-center  animate-bounce'/>
+                <h3>Git </h3>
+                </div>
+
+                <div className='text-2xl text-center'>
+                <FaNodeJs size={150} 	 className='w-full 		text-center text-green-500 animate-pulse'/>
+                <h3>NodeJs </h3>
+                </div>
+
+                <div className='text-2xl text-center'>
+                <FaReact  size={150} color='cyan' className='w-full text-center  animate-bounce'/>
+                <h3>React</h3>
+                </div>
+
+
+            </div>
 
 
         </div>

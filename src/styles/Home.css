@@ -5,6 +5,8 @@
     width: 100%;
 }
 
+
+
 .header-shape {
 
     position: absolute;
@@ -61,6 +63,7 @@
     height: 80px;
     width: 80px;
     opacity: 90%;
+    transform: transition all 0.3s ease-in;
 }
 
 .header-shape.shape-seven {
@@ -148,17 +151,76 @@
         width: 80px;
         opacity: 30%;
     }
-    .header-shape:hover{
+    
 
-        height: 100px;
-        width: 100px;
-        transition: all 0.3s ease;
+}   
+
+@media screen and (max-width: 767px){
+
+    
+    
+    
+    .header-shape.shape-one {
+
+        top: 21.5%;
+        left: 10%;
+        width: 80px;
+        height: 80px;
+        opacity: 80%;
     }
-
-    .header-shape.shape-five:hover{
-
-        height: 100px;
-        width: 100px;
-        transition: all 0.3s ease;
+    
+    .header-shape.shape-two {
+    
+        top: 55%;
+        left: 1%;
+        width: 80px;
+        opacity: 30%;
+        height: 80px;
     }
-}
+    
+    .header-shape.shape-three {
+    
+        top: 40%;
+        right: 80px;
+        width: 80px;
+        height: 50px;
+        opacity: 55%;
+    }
+    .shape-fore {
+    
+        top: 55%;
+        right: 10%;
+        height: 80px;
+        width: 80px;
+        opacity: 25%;
+    }
+    
+    .header-shape.shape-five {
+    
+        top: 25%;
+        right: 35%;
+        height: 80px;
+        width: 80px;
+        opacity: 35%;
+    }
+    
+    .header-shape.shape-six {
+    
+        top: 30%;
+        right: 20%;
+        height: 80px;
+        width: 80px;
+        opacity: 40%;
+    }
+    
+    .header-shape.shape-seven {
+    
+        top: 65%;
+        left: 36%;
+        height: 80px;
+        width: 80px;
+        opacity: 30%;
+    }
+    
+
+}   
