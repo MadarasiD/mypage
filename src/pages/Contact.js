@@ -5,7 +5,18 @@ const Contact = () => {
   return (
     <Layout>
         <div>
-            <h1>Contact us</h1>
+            <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400 pt-6'>
+            <h1 className='text-6xl p-10  text-center underline text-white'>The web development technologies I use</h1>
+            
+                <div className='grid md:grid-cols-2 grid-cols-5 text-white'>
+
+                
+
+
+
+                </div>
+
+            </div>
         </div>
     </Layout>
   )
