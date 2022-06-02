@@ -80,9 +80,9 @@ const Home = () => {
           </div>
 
         </div>
+        {/* home section end*/} 
 
-
-        {/* Skills section*/}
+        {/* Skills section start*/}
 
         <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400'>
         
@@ -143,7 +143,9 @@ const Home = () => {
 
         </div>
 
-        {/* About section*/}
+        {/* Skills section end*/}
+
+        {/* About section start*/}
 
         <div className='bg-gradient-to-b from-neutral-400	 via-neutral-600 to-neutral-800 ' >
           <div className='text-center'>
@@ -162,8 +164,9 @@ const Home = () => {
             </div>
             
         </div>
+        {/*About section end*/}
 
-        {/* Projects section */}
+        {/* Projects section start*/}
         <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400 pb-5' >
 
           <h1 className='text-white text-center text-6xl pt-20 pb-20'>My Projects</h1>
@@ -396,9 +399,13 @@ const Home = () => {
                   </div>
             </div>
 
-            
+
             </div>
         </div>
+
+        {/* Project section end*/}
+
+        {/* Contact section start*/}
       </div>
     </Layout>
   )
