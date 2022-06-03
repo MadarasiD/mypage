@@ -40,7 +40,7 @@ const Header = () => {
 
       <div className={`navigation flex bg-neutral-800 justify-between items-center p-2 shadow-2xl ${showMenu === '' && 'md:flex-col'}`}>
         <div className='flex justify-between w-full'>
-          <h1 className='text-4xl font-semibold '>M D</h1>
+          <h1 className='text-4xl font-semibold hover:text-red-500 animate-pulse'>M D</h1>
           <button
             onClick={() => {
               if (showMenu === 'md:hidden') {
@@ -60,7 +60,7 @@ const Header = () => {
 
           {menuItems.map((item) => {
             return (
-              <li className={`list-none mx-5 p-1 hover:scale-125 ${item.key === pathname && 'bg-white text-black rounded-md '}`}>
+              <li className={`list-none mx-5 p-1 animate-pulse hover:scale-125  hover:text-red-500 hover:underline ${item.key === pathname && 'bg-white text-black rounded-md '}`}>
                 <Link to={`${item.key}`}>{item.title}</Link>
               </li>
             )

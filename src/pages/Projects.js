@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <Layout>
         <div>
-        <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400 pb-5 pr-3' >
+        <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 pb-5 pr-3' >
 
 <h1 className='text-white text-center text-6xl pt-20 pb-20'>My Projects</h1>
 <div className='grid md:grid-cols-2 grid-cols-6 text-white'>

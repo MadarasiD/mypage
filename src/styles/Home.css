@@ -45,6 +45,7 @@
     height: 80px;
     width: 80px;
     opacity: 55%;
+    transform: transition all 0.3s ease-in-out;
 }
 
 .header-shape.shape-five {
@@ -63,7 +64,7 @@
     height: 80px;
     width: 80px;
     opacity: 90%;
-    transform: transition all 0.3s ease-in;
+    
 }
 
 .header-shape.shape-seven {

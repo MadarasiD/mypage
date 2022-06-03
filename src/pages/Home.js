@@ -23,12 +23,12 @@ const Home = () => {
             
 
         {/* home section*/}    
-        <div className="h-screen bg-neutral-800	">
+        <div className="h-screen bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800">
 
           <div className="grid md:grid-cols-1 grid-cols-2 items-center transfrom transition skew-y-12 md:skew-y-0 ">
 
             <div className='font-bold text-center justify-center md:px-3 '>
-              <h1 className='text-4xl  text-emerald-700	md:text-2xl md:pt-32 animate-pulse tarnsform transition-all animate-bounce'>
+              <h1 className='text-4xl  text-emerald-700	md:text-2xl md:pt-32 animate-pulse tarnsform transition-all animate-bounce '>
                 Hi, my name is<br /> <b className='text-emerald-400	text-5xl '>
                 
                    Madarasi Dániel</b></h1>
@@ -41,7 +41,7 @@ const Home = () => {
 
             <div id="parallax">
 
-              <div className="header-shape shape-one ">
+              <div className="header-shape shape-one  hover:text-lg">
                       <img  src={require("../assets/HTML5.png")} alt="" />
               </div>
 
@@ -150,7 +150,7 @@ const Home = () => {
         <div className='bg-gradient-to-b from-neutral-400	 via-neutral-600 to-neutral-800 ' >
           <div className='text-center'>
 
-          <h1 className='text-2xl font-bold text-center pb-4'>Hi, it's Dani. Welcome to my website.</h1>
+          <h1 className='text-2xl font-bold text-center pb-4 '>Hi, it's Dani. Welcome to my website.</h1>
           </div>
 
 

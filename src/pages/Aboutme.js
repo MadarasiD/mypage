@@ -5,7 +5,7 @@ const Aboutme = () => {
   return (
     <Layout>
         <div>
-        <div className='bg-gradient-to-b from-neutral-400	 via-neutral-600 to-neutral-800 pt-20' >
+        <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 pt-20' >
           <div className='text-center'>
 
           <h1 className='text-2xl font-bold text-center pb-4'>Hi, it's Dani. Welcome to my website.</h1>

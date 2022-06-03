@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <Layout>
         <div>
-            <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400 pt-6'>
+            <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 pt-6'>
             
             <h1 className='text-6xl p-10  text-center underline text-white'>The web development technologies I use</h1>
             
