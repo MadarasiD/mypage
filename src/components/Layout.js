@@ -7,7 +7,7 @@ const Layout = ({children}) => {
     <div>
         <Header />
 
-        <div className="content font-lob overflow-x-hidden">
+        <div className="content inset-0 z-0 font-lob overflow-x-hidden">
             {children}
         </div>
 

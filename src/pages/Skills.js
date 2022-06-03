@@ -17,7 +17,7 @@ const Skills = () => {
                 
 
                     <div className='text-2xl text-center mb-20'>
-                    <FaHtml5  size={150} className='w-full text-center text-orange-600	animate-bounce'/>
+                    <FaHtml5  size={150} className='w-full text-center text-orange-600 	animate-bounce'/>
                     <h3>HTML</h3>
                     </div>
 

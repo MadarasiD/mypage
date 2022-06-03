@@ -11,23 +11,23 @@ const Header = () => {
   const menuItems = [
 
     {
-      title: 'Home',
+      name: 'Home',
       key: '/'
     },
     {
-      title: 'Skills',
+      name: 'Skills',
       key: '/skills'
     },
     {
-      title: 'About',
+      name: 'About',
       key: '/aboutme'
     },
     {
-      title: 'Projects',
+      name: 'Projects',
       key: '/projects'
     },
     {
-      title: 'Contact',
+      name: 'Contact',
       key: '/contact'
     },
 
@@ -36,9 +36,9 @@ const Header = () => {
   const pathname = window.location.pathname
 
   return (
-    <div className='text-white font-lob fixed inset-0 z-50'>
+    <div className='text-white font-lob fixed w-full z-50'>
 
-      <div className={`navigation flex bg-neutral-800 justify-between items-center p-2 shadow-2xl ${showMenu === '' && 'md:flex-col'}`}>
+      <div className={`navigation flex bg-neutral-800 justify-between items-center p-5 shadow-2xl ${showMenu === '' && 'md:flex-col'}`}>
         <div className='flex justify-between w-full'>
           <h1 className='text-4xl font-semibold hover:text-red-500 animate-pulse'>M D</h1>
           <button
@@ -58,10 +58,10 @@ const Header = () => {
 
         <div className='flex md:hidden'>
 
-          {menuItems.map((item) => {
+          {menuItems.map((name) => {
             return (
-              <li className={`list-none mx-5 p-1 animate-pulse hover:scale-125  hover:text-red-500 hover:underline ${item.key === pathname && 'bg-white text-black rounded-md '}`}>
-                <Link to={`${item.key}`}>{item.title}</Link>
+              <li className={`list-none mx-8 p-1 animate-pulse hover:scale-125  hover:text-red-500 hover:underline ${name.key === pathname && 'bg-white text-black rounded-md '}`}>
+                <Link to={`${name.key}`}>{name.name}</Link>
               </li>
             )
           })}
@@ -73,10 +73,10 @@ const Header = () => {
 
         <div className={`mt-5 md:flex items-center w-full flex-col lg:hidden ${showMenu}`}>
 
-          {menuItems.map((item) => {
+          {menuItems.map((name) => {
             return (
-              <li className={`list-none py-1 ${item.key === pathname && 'bg-white text-black rounded-md' }`}>
-                <Link to={`${item.key}`}>{item.title}</Link>
+              <li className={`list-none py-1 ${name.key === pathname && 'bg-white text-black rounded-md' }`}>
+                <Link to={`${name.key}`}>{name.title}</Link>
               </li>
             )
           })}
