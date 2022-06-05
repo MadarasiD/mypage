@@ -86,7 +86,7 @@ const Home = () => {
 
         <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400'>
         
-        <h1 className='text-6xl p-10  text-center underline text-white'>The web development technologies I use</h1>
+        <h1 className='text-6xl p-10 mb-20 text-center underline text-white'>The web development technologies I use</h1>
         
             <div className='grid md:grid-cols-2 grid-cols-5 text-white'>
 
@@ -166,12 +166,12 @@ const Home = () => {
         {/*About section end*/}
 
         {/* Projects section start*/}
-        <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400 pb-5' >
+        <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400 pb-5 pr-5' >
 
           <h1 className='text-white text-center text-6xl pt-20 pb-20'>My Projects</h1>
         <div className='grid md:grid-cols-2 grid-cols-6 text-white'>
           <div className='ml-3'>
-                <h2 className='text-white'>This is my first project</h2>
+                <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="#">
                           <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
@@ -190,7 +190,7 @@ const Home = () => {
             </div>
 
             <div className='ml-3'>
-                <h2 className='text-white'>This is my first project</h2>
+                <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="#">
                           <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
@@ -209,7 +209,7 @@ const Home = () => {
             </div>
 
             <div className='ml-3'>
-                <h2 className='text-white'>This is my first project</h2>
+                <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="#">
                           <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
@@ -228,7 +228,7 @@ const Home = () => {
             </div>
 
             <div className='ml-3'>
-                <h2 className='text-white'>This is my first project</h2>
+                <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="#">
                           <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
@@ -247,7 +247,7 @@ const Home = () => {
             </div>
 
             <div className='ml-3'>
-                <h2 className='text-white'>This is my first project</h2>
+                <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="#">
                           <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
@@ -266,7 +266,7 @@ const Home = () => {
             </div>
 
             <div className='ml-3'>
-                <h2 className='text-white'>This is my first project</h2>
+                <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="#">
                           <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
@@ -285,7 +285,7 @@ const Home = () => {
             </div>
 
             <div className='ml-3'>
-                <h2 className='text-white'>This is my first project</h2>
+                <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="#">
                           <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
@@ -304,7 +304,7 @@ const Home = () => {
             </div>
 
             <div className='ml-3'>
-                <h2 className='text-white'>This is my first project</h2>
+                <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="#">
                           <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
@@ -323,7 +323,7 @@ const Home = () => {
             </div>
 
             <div className='ml-3'>
-                <h2 className='text-white'>This is my first project</h2>
+                <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="#">
                           <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
@@ -342,7 +342,7 @@ const Home = () => {
             </div>
 
             <div className='ml-3'>
-                <h2 className='text-white'>This is my first project</h2>
+                <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="#">
                           <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
@@ -361,7 +361,7 @@ const Home = () => {
             </div>
 
             <div className='ml-3'>
-                <h2 className='text-white'>This is my first project</h2>
+                <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="#">
                           <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
@@ -380,7 +380,7 @@ const Home = () => {
             </div>
 
             <div className='ml-3'>
-                <h2 className='text-white'>This is my first project</h2>
+                <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="#">
                           <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />

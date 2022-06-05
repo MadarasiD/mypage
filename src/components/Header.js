@@ -76,7 +76,7 @@ const Header = () => {
           {menuItems.map((name) => {
             return (
               <li className={`list-none py-1 ${name.key === pathname && 'bg-white text-black rounded-md' }`}>
-                <Link to={`${name.key}`}>{name.title}</Link>
+                <Link to={`${name.key}`}>{name.name}</Link>
               </li>
             )
           })}

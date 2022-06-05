@@ -5,23 +5,63 @@ const Aboutme = () => {
   return (
     <Layout>
         <div>
-        <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 pt-20' >
-          <div className='text-center'>
+        <div className="h-screen bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 pt-20">
 
-          <h1 className='text-2xl font-bold text-center pb-4'>Hi, it's Dani. Welcome to my website.</h1>
+          <div className="grid md:grid-cols-1 grid-cols-2 items-center transfrom transition skew-y-12 md:skew-y-0 ">
+
+            <div className='font-bold 	 text-center justify-center md:px-3 '>
+              <h1 className='text-4xl  text-emerald-700	md:text-2xl md:pt-32 animate-pulse tarnsform transition-all animate-bounce '>
+                Hi, my name is<br /> <b className='text-emerald-400	text-5xl '>
+                
+                  Madarasi Dániel</b></h1>
+                  
+              
+              <h1 className='text-3xl  text-teal-500	ms:text-xl tarnsform transition-all animate-bounce'>
+                  Frontend <b className='text-red-600'>Developer</b>
+              </h1>
+            </div>
+
+            <div id="parallax">
+
+              <div className="header-shape shape-one  hover:text-lg">
+                      <img  src={require("../assets/HTML5.png")} alt="" />
+              </div>
+
+              <div className="header-shape shape-two">
+                      <img src={require("../assets/CSS.png")} alt="" />
+              </div>
+
+              <div className="header-shape shape-three">
+                      <img src={require("../assets/js.jpg")} alt="" />
+              </div>
+
+              <div className="header-shape shape-fore">
+                      <img src={require("../assets/Bootstrap.png")} alt="" />
+              </div>
+
+              <div className="header-shape shape-five">
+                      <img src={require("../assets/REACT.png")} alt="" />
+              </div>
+
+              <div className="header-shape shape-six">
+                      <img src={require("../assets/Angular.png")} alt="" />
+              </div>
+
+              <div className="header-shape shape-seven">
+                      <img src={require("../assets/Photoshop2.png")} alt="" />
+              </div>
+
+                
+            </div>
+
+
+            <div className='grid md:grid-cols-1  grid-cols-2 h-screen '>
+              <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_WdTEui.json" background="transparent" speed="1" loop autoplay></lottie-player>
+            </div>
+
           </div>
 
-
-          <div className='text-center items-center mx-36 md:mx-5 shadow-xl shadow-black'>
-            <div className='h-96	'>
-            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_lxqurkjc.json"  background="transparent"  speed="1"    loops autoplay></lottie-player>
-            </div>
-           <p className='text-xl text-white text-center'> My development studies at Frontend began in early 2020. I’ve always been interested in websites, now I can finally immerse myself in it. I haven’t worked in the profession yet, but I’ve done and learned a lot of projects.
-            I also like to work in a team, but if I have to work alone, that’s not a problem. I study in my free time, I am constantly improving my existing knowledge.
-            I am open to learning new things and I love challenges.</p>
-            </div>
-            
-        </div>
+          </div>
         </div>
     </Layout>
   )
