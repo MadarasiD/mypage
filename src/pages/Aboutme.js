@@ -7,30 +7,33 @@ const Aboutme = () => {
         
         
 
-          <div className=" bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 ">
+          <div>
+          <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 pt-24' >
+          <div className='text-center'>
 
-            <div className='text-center  h-full relative'>
-            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_MvFIQ6.json"  background="transparent"  speed="1"    loop  autoplay></lottie-player>
-            </div>
-
-            
-
-            <div className='absolute inset-0 flex flex-col items-center justify-center pt-80'>
-              <div >
-              <h1 className='text-4xl pt-60'>Hi, it's Dani. Welcome to my website</h1>
-              
-              <pre className='items-center pt-32'>
-               My development studies at Frontend began in early 2020. I’ve always<br />been interested in websites, now I can finally immerse myself in it.<br />I haven’t worked in the profession yet, but I’ve done and learned a<br />lot of projects.
-                I also like to work in a team, <br />but if I have to work alone, that’s not a problem. <br />I study in my free time, I am constantly <br />improving my existing knowledge.<br />
-                I am open to learning new things and I love challenges.
-                </pre>
-              </div>
-            </div>
-            
-            
-
+          <h1 className='text-2xl font-bold text-center text-white pb-4 underline'>Hi, it's Dani. Welcome to my website.</h1>
           </div>
-          
+
+
+          <div className='text-center items-center mx-36 md:mx-5 shadow-xl shadow-black'>
+            <div className='h-96	'>
+            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_lxqurkjc.json"  background="transparent"  speed="1"    loops autoplay></lottie-player>
+            </div>
+           <p className='text-xl text-white text-center'> 
+            My name is Daniel Madarasi.
+            I am 26 years old.
+            I first started as a machine operator, which was later replaced by a team leader.
+            Continuously improving my knowledge, I became a Senior Team Leader.
+            It was during this time that he started working on web development.
+            After that, I applied for Frontend developer training, where I gained a lot of knowledge.
+            In my free time I constantly improve my knowledge.
+            I passed all of my listed Frontend Developer skills with a successful exam.
+            I want to work in a Frontend Developer job and continuously build my knowledge to build a career.
+            </p>
+            </div>
+            
+        </div>
+          </div>
 
           
         

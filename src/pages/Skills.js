@@ -11,6 +11,8 @@ const Skills = () => {
         <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800'>
         
         <h1 className='text-6xl p-10 mb-20 pt-28 text-center underline text-white'>The web development technologies I use</h1>
+        <h2 className='text-2xl p-10 mb-20 text-center text-white'>I am currently focusing on developing React. I would like to apply this later and develop this knowledge to a professional level.
+        <br />I will soon start studying Angular as well..</h2>
         
             <div className='grid md:grid-cols-2 grid-cols-5 text-white'>
 
@@ -61,6 +63,7 @@ const Skills = () => {
                 <h3>React</h3>
                 </div>
 
+                
 
             </div>
 

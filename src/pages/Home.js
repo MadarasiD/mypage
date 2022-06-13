@@ -28,7 +28,7 @@ const Home = () => {
           <div className="grid md:grid-cols-1 grid-cols-2 items-center transfrom transition skew-y-12 md:skew-y-0 ">
 
             <div className='font-bold 	 text-center justify-center md:px-3 '>
-              <h1 className='text-4xl  text-emerald-700	md:text-2xl md:pt-32 animate-pulse tarnsform transition-all animate-bounce '>
+              <h1 className='text-4xl  text-emerald-700	md:text-2xl md:pt-36 animate-pulse tarnsform transition-all animate-bounce '>
                 Hi, my name is<br /> <b className='text-emerald-400	text-5xl '>
                 
                    Madarasi Dániel</b></h1>
@@ -86,7 +86,7 @@ const Home = () => {
 
         <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400'>
         
-        <h1 className='text-6xl p-10 mb-20 text-center underline text-white'>The web development technologies I use</h1>
+        <h1 className='text-6xl p-12 md:pt-24 mb-20 text-center underline text-white'>The web development technologies I use</h1>
         
             <div className='grid md:grid-cols-2 grid-cols-5 text-white'>
 
@@ -149,7 +149,7 @@ const Home = () => {
         <div className='bg-gradient-to-b from-neutral-400	 via-neutral-600 to-neutral-800 ' >
           <div className='text-center'>
 
-          <h1 className='text-2xl font-bold text-center pb-4 '>Hi, it's Dani. Welcome to my website.</h1>
+          <h1 className='text-2xl font-bold text-center pt-8 pb-8 underline'>Hi, it's Dani. Welcome to my website.</h1>
           </div>
 
 
@@ -168,7 +168,7 @@ const Home = () => {
         {/* Projects section start*/}
         <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400 pb-5 pr-5' >
 
-          <h1 className='text-white text-center text-6xl pt-20 pb-20'>My Projects</h1>
+          <h1 className='text-white text-center text-6xl pt-28 md:pt-32 pb-20'>My Projects</h1>
         <div className='grid md:grid-cols-2 grid-cols-6 text-white'>
           <div className='ml-3'>
                 <h2 className='text-white text-center pb-3'>This is my first project</h2>
