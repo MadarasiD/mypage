@@ -16,7 +16,8 @@ const Contact = () => {
                  <div className='flex justify-center '>
                  <button className='border-2 mt-3 bg-red-800 text-white rounded-3xl hover:bg-red-600 px-5 py-1'>SUBMIT</button>
                  </div>
-             </div>
+        </div>
+        
       </div>
 
     
