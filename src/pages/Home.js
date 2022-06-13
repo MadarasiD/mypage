@@ -29,13 +29,13 @@ const Home = () => {
           <div className="grid md:grid-cols-1 grid-cols-2 items-center transfrom transition skew-y-12 md:skew-y-0 ">
 
             <div className='font-bold 	 text-center justify-center md:px-3 '>
-              <h1 className='text-4xl  text-emerald-700	md:text-2xl md:pt-36 animate-pulse tarnsform transition-all animate-bounce ' data-aos="fade-down-left">
+              <h1 className='text-4xl  text-emerald-700	md:text-2xl md:pt-36 animate-pulse tarnsform transition-all animate-bounce ' data-aos="flip-left">
                 Hi, my name is<br /> <b className='text-emerald-400	text-5xl '>
                 
                    Madarasi Dániel</b></h1>
                    
               
-              <h1 className='text-3xl  text-teal-500	ms:text-xl tarnsform transition-all animate-bounce'>
+              <h1 className='text-3xl  text-teal-500	ms:text-xl tarnsform transition-all animate-bounce' data-aos="flip-left">
                   Frontend <b className='text-red-600'>Developer</b>
               </h1>
             </div>
