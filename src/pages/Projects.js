@@ -13,7 +13,7 @@ const Projects = () => {
           <div className='grid md:grid-cols-2 grid-cols-6 text-white'>
           <div className='ml-3'>
           <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500 ">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -32,7 +32,7 @@ const Projects = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -51,7 +51,7 @@ const Projects = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -70,7 +70,7 @@ const Projects = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -89,7 +89,7 @@ const Projects = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -108,7 +108,7 @@ const Projects = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -127,7 +127,7 @@ const Projects = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -146,7 +146,7 @@ const Projects = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -165,7 +165,7 @@ const Projects = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -184,7 +184,7 @@ const Projects = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -203,7 +203,7 @@ const Projects = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -222,7 +222,7 @@ const Projects = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>

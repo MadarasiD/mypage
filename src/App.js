@@ -5,6 +5,9 @@ import Skills from './pages/Skills'
 import Aboutme from './pages/Aboutme'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 
 function App() {

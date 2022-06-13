@@ -11,15 +11,15 @@ const Aboutme = () => {
           <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 pt-24' >
           <div className='text-center'>
 
-          <h1 className='text-2xl font-bold text-center text-white pb-4 underline'>Hi, it's Dani. Welcome to my website.</h1>
+          <h1 className='text-2xl font-bold text-center text-white pb-4 underline' data-aos="zoom-out-left">Hi, it's Dani. Welcome to my website.</h1>
           </div>
 
 
           <div className='text-center items-center mx-36 md:mx-5 shadow-xl shadow-black'>
             <div className='h-96	'>
-            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_lxqurkjc.json"  background="transparent"  speed="1"    loops autoplay></lottie-player>
+            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_lxqurkjc.json"  background="transparent"  speed="1"    loops autoplay data-aos="zoom-in"></lottie-player>
             </div>
-           <p className='text-xl text-white text-center'> 
+           <p className='text-l text-white text-center'data-aos="zoom-in"> 
             My name is Daniel Madarasi.
             I am 26 years old.
             I first started as a machine operator, which was later replaced by a team leader.

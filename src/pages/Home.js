@@ -13,6 +13,7 @@ import {TbBrandJavascript} from 'react-icons/tb'
 
 
 
+
  
 const Home = () => {
 
@@ -28,7 +29,7 @@ const Home = () => {
           <div className="grid md:grid-cols-1 grid-cols-2 items-center transfrom transition skew-y-12 md:skew-y-0 ">
 
             <div className='font-bold 	 text-center justify-center md:px-3 '>
-              <h1 className='text-4xl  text-emerald-700	md:text-2xl md:pt-36 animate-pulse tarnsform transition-all animate-bounce '>
+              <h1 className='text-4xl  text-emerald-700	md:text-2xl md:pt-36 animate-pulse tarnsform transition-all animate-bounce ' data-aos="fade-down-left">
                 Hi, my name is<br /> <b className='text-emerald-400	text-5xl '>
                 
                    Madarasi Dániel</b></h1>
@@ -86,55 +87,74 @@ const Home = () => {
 
         <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400'>
         
-        <h1 className='text-6xl p-12 md:pt-24 mb-20 text-center underline text-white'>The web development technologies I use</h1>
+        <h1 className='text-6xl p-12 md:pt-24 mb-20 text-center underline text-white' data-aos="fade-down-left">The web development technologies I use</h1>
         
             <div className='grid md:grid-cols-2 grid-cols-5 text-white'>
 
              
 
-                <div className='text-2xl text-center mb-20'>
+                <div className='text-2xl text-center mb-20 ' data-aos="zoom-in">
                 <FaHtml5  size={150} className='w-full text-center text-orange-600	animate-bounce'/>
-                <h3>HTML</h3>
+                <h3 data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                    >HTML</h3>
                 </div>
 
-                <div className='text-2xl text-center mb-20'>
+                <div className='text-2xl text-center mb-20' data-aos="zoom-in">
                 <FaCss3 size={150} className='w-full text-center text-blue-500 animate-pulse'/>
-                <h3>Css</h3>
+                <h3 data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">Css</h3>
                 </div>
 
-                <div className='text-2xl text-center mb-20'>
+                <div className='text-2xl text-center mb-20'data-aos="zoom-in">
                 <FaBootstrap  size={150} 	 className='w-full text-center text-violet-600	animate-bounce'/>
-                <h3>Bootstrap</h3>
+                <h3 data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">Bootstrap</h3>
                 </div>
 
-                <div className='text-2xl text-center'>
+                <div className='text-2xl text-center'data-aos="zoom-in">
                 <FaSass  size={150} 	 className='w-full text-center text-fuchsia-500		animate-pulse'/>
-                <h3>Sass / Sccs </h3>
+                <h3 data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">Sass / Sccs </h3>
                 </div>
 
-                <div className='text-2xl text-center mb-20'>
+                <div className='text-2xl text-center mb-20' data-aos="zoom-in">
                 <SiTailwindcss  size={150} 	 className='w-full text-center text-sky-500		animate-bounce	'/>
-                <h3>Tailwind-css </h3>
+                <h3 data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">Tailwind-css </h3>
                 </div>
 
-                <div className='text-2xl text-center'>
+                <div className='text-2xl text-center' data-aos="zoom-in">
                 <TbBrandJavascript  size={150} 	 className='w-full text-center text-yellow-500		animate-pulse'/>
-                <h3>Javascript </h3>
+                <h3 data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">Javascript </h3>
                 </div>
 
-                <div className='text-2xl text-center mb-20 text-black'>
+                <div className='text-2xl text-center mb-20 text-black'data-aos="zoom-in">
                 <FaGithub  size={150} 	 className='w-full 		text-center text-black animate-bounce'/>
-                <h3>Git </h3>
+                <h3 data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">Git </h3>
                 </div>
 
-                <div className='text-2xl text-center'>
+                <div className='text-2xl text-center' data-aos="zoom-in">
                 <FaNodeJs size={150} 	 className='w-full 		text-center text-green-500 animate-pulse'/>
-                <h3>NodeJs </h3>
+                <h3 data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">NodeJs </h3>
                 </div>
 
-                <div className='text-2xl text-center'>
+                <div className='text-2xl text-center'data-aos="zoom-in">
                 <FaReact  size={150} color='cyan' className='w-full text-center  animate-bounce'/>
-                <h3>React</h3>
+                <h3 data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">React</h3>
                 </div>
 
 
@@ -149,15 +169,15 @@ const Home = () => {
         <div className='bg-gradient-to-b from-neutral-400	 via-neutral-600 to-neutral-800 ' >
           <div className='text-center'>
 
-          <h1 className='text-2xl font-bold text-center pt-8 pb-8 underline'>Hi, it's Dani. Welcome to my website.</h1>
+          <h1 className='text-2xl font-bold text-center pt-8 pb-8 underline'data-aos="zoom-in">Hi, it's Dani. Welcome to my website.</h1>
           </div>
 
 
           <div className='text-center items-center mx-36 md:mx-5 shadow-xl shadow-black'>
-            <div className='h-96	'>
-            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_lxqurkjc.json"  background="transparent"  speed="1"    loops autoplay></lottie-player>
+            <div className='h-92	'>
+            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_lxqurkjc.json"  background="transparent"  speed="1"    loops autoplay data-aos="zoom-in"></lottie-player>
             </div>
-           <p className='text-xl text-white text-center'> 
+           <p className='text-xl text-white text-center' data-aos="zoom-in"> 
            My name is Daniel Madarasi.
             I am 26 years old.
             I first started as a machine operator, which was later replaced by a team leader.
@@ -175,13 +195,13 @@ const Home = () => {
         {/* Projects section start*/}
         <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400 pb-5 pr-5' >
 
-          <h1 className='text-white text-center text-6xl pt-28 md:pt-32 pb-20'>My Projects</h1>
+          <h1 className='text-white text-center text-6xl pt-28 md:pt-32 pb-20' data-aos="flip-right">My Projects</h1>
 
-          <h2 className='text-white text-center text-2xl pb-10'>Projects are being prepared and submitted on an ongoing basis.</h2>
+          <h2 className='text-white text-center text-2xl pb-10' data-aos="flip-right">Projects are being prepared and submitted on an ongoing basis.</h2>
         <div className='grid md:grid-cols-2 grid-cols-6 text-white'>
           <div className='ml-3'>
                 <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -200,7 +220,7 @@ const Home = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -219,7 +239,7 @@ const Home = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -238,7 +258,7 @@ const Home = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -257,7 +277,7 @@ const Home = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -276,7 +296,7 @@ const Home = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -295,7 +315,7 @@ const Home = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -314,7 +334,26 @@ const Home = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
+                      <a href="#">
+                          <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+                      </a>
+                      <div class="p-5 bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400">
+                          <a href="#">
+                              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">In progress </h5>
+                          </a>
+                          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">In progress </p>
+                          <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                          In progress
+                              <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                          </a>
+                      </div>
+                  </div>
+            </div>
+
+            <div className='ml-3'>
+            <h2 className='text-white text-center pb-3'>This is my first project</h2> 
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -333,7 +372,7 @@ const Home = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -352,7 +391,7 @@ const Home = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
@@ -371,26 +410,7 @@ const Home = () => {
 
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                      <a href="#">
-                          <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
-                      </a>
-                      <div class="p-5 bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400">
-                          <a href="#">
-                              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">In progress </h5>
-                          </a>
-                          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">In progress </p>
-                          <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                          In progress
-                              <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                          </a>
-                      </div>
-                  </div>
-            </div>
-
-            <div className='ml-3'>
-            <h2 className='text-white text-center pb-3'>This is my first project</h2>
-                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
                       <a href="#">
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
