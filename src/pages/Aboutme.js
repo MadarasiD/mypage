@@ -1,17 +1,20 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
+
+
 const Aboutme = () => {
+
+
   return (
     <Layout >
-        
-        
-
-          <div>
+         <div>
           <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 pt-24' >
           <div className='text-center'>
 
           <h1 className='text-2xl font-bold text-center text-white pb-4 underline' data-aos="zoom-out-left">Hi, it's Dani. Welcome to my website.</h1>
+
+          <a href="cvmadarasid.pdf" download="Madarasi Daniel.pdf" target="_blank"><button className='bg-white border-red-900	 rounded-full p-2 border-2 hover:bg-red-800 hover:text-emerald-300	'><h3 className='text-xl text-bold underline'>Download my CV</h3></button></a>
           </div>
 
 

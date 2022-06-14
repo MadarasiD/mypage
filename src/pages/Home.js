@@ -4,19 +4,19 @@ import '../styles/Home.css'
 import {FaHtml5, FaCss3, FaReact, FaBootstrap, FaSass, FaGithub, FaNodeJs} from 'react-icons/fa'
 import {SiTailwindcss} from 'react-icons/si'
 import {TbBrandJavascript} from 'react-icons/tb'
-
-
-
-
-
-
-
+import { saveAs } from "file-saver";
 
 
 
  
 const Home = () => {
 
+    const saveFile = () => {
+        saveAs(
+          "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "example.pdf"
+        );
+      };
   
   return (
     <Layout>
@@ -38,6 +38,10 @@ const Home = () => {
               <h1 className='text-3xl  text-teal-500	ms:text-xl tarnsform transition-all animate-bounce' data-aos="flip-left">
                   Frontend <b className='text-red-600'>Developer</b>
               </h1>
+
+             
+          
+
             </div>
 
             <div id="parallax">
@@ -84,8 +88,13 @@ const Home = () => {
         {/* home section end*/} 
 
         {/* Skills section start*/}
+        
 
         <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400'>
+        
+        <h1 className='text-white text-center text-4xl underline decoration-wavy pb-5 font-extrabold ' data-aos="fade-down-left">You can download my CV with the button below</h1>
+
+        <a className='flex justify-center' href="cvmadarasid.pdf" download="Madarasi Daniel.pdf" target="_blank"><button className='text-green-900	 border-red-300	 rounded-full p-2 border-2 bg-red-200 hover:bg-red-800 hover:text-emerald-300	'><h3 className='text-xl text-bold underline decoration-wavy font-extrabold	'>Download my CV</h3></button></a>
         
         <h1 className='text-6xl p-12 md:pt-24 mb-20 text-center underline text-white' data-aos="fade-down-left">The web development technologies I use</h1>
         
