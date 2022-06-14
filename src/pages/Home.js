@@ -24,7 +24,7 @@ const Home = () => {
             
 
         {/* home section*/}    
-        <div className="h-screen bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800">
+        <div className="h-screen bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 ">
 
           <div className="grid md:grid-cols-1 grid-cols-2 items-center transfrom transition skew-y-12 md:skew-y-0 ">
 
@@ -44,7 +44,7 @@ const Home = () => {
 
             </div>
 
-            <div id="parallax">
+            <div className="sm:hidden" id="parallax">
 
               <div className="header-shape shape-one  hover:text-lg">
                       <img  src={require("../assets/HTML5.png")} alt="" />
@@ -78,7 +78,7 @@ const Home = () => {
             </div>
 
 
-            <div className='grid md:grid-cols-1  grid-cols-2 h-screen '>
+            <div className='grid md:grid-cols-1  grid-cols-2 h-screen md:h-3/6'>
               <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_WdTEui.json" background="transparent" speed="1" loop autoplay></lottie-player>
             </div>
 
@@ -90,9 +90,9 @@ const Home = () => {
         {/* Skills section start*/}
         
 
-        <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400'>
+        <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400 '>
         
-        <h1 className='text-white text-center text-4xl underline decoration-wavy pb-5 font-extrabold ' data-aos="fade-down-left">You can download my CV with the button below</h1>
+        <h1 className='text-white text-center text-4xl underline decoration-wavy pb-5 font-extrabold pt-40' data-aos="fade-down-left">You can download my CV with the button below</h1>
 
         <a className='flex justify-center' href="cvmadarasid.pdf" download="Madarasi Daniel.pdf" target="_blank"><button className='text-green-900	 border-red-300	 rounded-full p-2 border-2 bg-red-200 hover:bg-red-800 hover:text-emerald-300	'><h3 className='text-xl text-bold underline decoration-wavy font-extrabold	'>Download my CV</h3></button></a>
         

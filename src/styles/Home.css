@@ -84,6 +84,142 @@
 }
 
 
+@media screen and (max-width: 380px){
+    .header-shape.shape-one {
+
+        top: 55.5%;
+        left: 20%;
+        width: 80px;
+        height: 80px;
+        opacity: 10%;
+    }
+    
+    .header-shape.shape-two {
+    
+        top: 85%;
+        left: 1%;
+        width: 80px;
+        opacity: 30%;
+        height: 80px;
+    }
+    
+    .header-shape.shape-three {
+    
+        top: 40%;
+        right: 80px;
+        width: 80px;
+        height: 50px;
+        opacity: 55%;
+    }
+    .shape-fore {
+    
+        top: 85%;
+        right: 25%;
+        height: 80px;
+        width: 80px;
+        opacity: 25%;
+    }
+    
+    .header-shape.shape-five {
+    
+        top: 25%;
+        right: 35%;
+        height: 80px;
+        width: 80px;
+        opacity: 35%;
+    }
+    
+    .header-shape.shape-six {
+    
+        top: 30%;
+        right: 20%;
+        height: 80px;
+        width: 80px;
+        opacity: 40%;
+    }
+    
+    .header-shape.shape-seven {
+    
+        top: 65%;
+        left: 36%;
+        height: 80px;
+        width: 80px;
+        opacity: 30%;
+    }
+    
+
+}   
+
+@media screen and (max-width: 767px){
+
+    
+    
+    
+    .header-shape.shape-one {
+
+        top: 41.5%;
+        left: 10%;
+        width: 80px;
+        height: 80px;
+        opacity: 20%;
+    }
+    
+    .header-shape.shape-two {
+    
+        top: 55%;
+        left: 1%;
+        width: 80px;
+        opacity: 30%;
+        height: 80px;
+    }
+    
+    .header-shape.shape-three {
+    
+        top: 40%;
+        right: 80px;
+        width: 80px;
+        height: 50px;
+        opacity: 55%;
+    }
+    .shape-fore {
+    
+        top: 55%;
+        right: 10%;
+        height: 80px;
+        width: 80px;
+        opacity: 25%;
+    }
+    
+    .header-shape.shape-five {
+    
+        top: 25%;
+        right: 35%;
+        height: 80px;
+        width: 80px;
+        opacity: 35%;
+    }
+    
+    .header-shape.shape-six {
+    
+        top: 30%;
+        right: 20%;
+        height: 80px;
+        width: 80px;
+        opacity: 40%;
+    }
+    
+    .header-shape.shape-seven {
+    
+        top: 65%;
+        left: 36%;
+        height: 80px;
+        width: 80px;
+        opacity: 30%;
+    }
+    
+
+}
+
 
 
 @media screen and (max-width: 1000px){
