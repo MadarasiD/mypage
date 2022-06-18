@@ -24,18 +24,18 @@ const Home = () => {
             
 
         {/* home section*/}    
-        <div className="h-screen bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 ">
+        <div className="bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 ">
 
           <div className="grid md:grid-cols-1 grid-cols-2 items-center transfrom transition skew-y-12 md:skew-y-0 ">
 
             <div className='font-bold 	 text-center justify-center md:px-3 '>
-              <h1 className='text-4xl  text-emerald-700	md:text-2xl md:pt-36 animate-pulse tarnsform transition-all animate-bounce ' data-aos="flip-left">
+              <h1 className='text-4xl  text-emerald-700	md:text-2xl md:pt-36 animate-pulse tarnsform transition-all animate-bounce ' >
                 Hi, my name is<br /> <b className='text-emerald-400	text-5xl '>
                 
                    Madarasi Dániel</b></h1>
                    
               
-              <h1 className='text-3xl  text-teal-500	ms:text-xl tarnsform transition-all animate-bounce' data-aos="flip-left">
+              <h1 className='text-3xl  text-teal-500	ms:text-xl tarnsform transition-all animate-bounce' >
                   Frontend <b className='text-red-600'>Developer</b>
               </h1>
 
@@ -92,11 +92,11 @@ const Home = () => {
 
         <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400 '>
         
-        <h1 className='text-white text-center text-4xl underline decoration-wavy pb-5 font-extrabold pt-40' data-aos="fade-down-left">You can download my CV with the button below</h1>
+        <h1 className='text-white text-center text-4xl underline decoration-wavy pb-5 font-extrabold pt-40' data-aos="fade-down-right">You can download my CV with the button below</h1>
 
         <a className='flex justify-center' href="cvmadarasid.pdf" download="Madarasi Daniel.pdf" target="_blank"><button className='text-green-900	 border-red-300	 rounded-full p-2 border-2 bg-red-200 hover:bg-red-800 hover:text-emerald-300	'><h3 className='text-xl text-bold underline decoration-wavy font-extrabold	'>Download my CV</h3></button></a>
         
-        <h1 className='text-6xl p-12 md:pt-24 mb-20 text-center underline text-white' data-aos="fade-down-left">The web development technologies I use</h1>
+        <h1 className='text-6xl p-12 md:pt-24 mb-20 text-center underline text-white' data-aos="fade-down-right">The web development technologies I use</h1>
         
             <div className='grid md:grid-cols-2 grid-cols-5 text-white'>
 
@@ -211,15 +211,15 @@ const Home = () => {
           <div className='ml-3'>
                 <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
-                      <a href="#">
+                      <a >
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
                       <div class="p-5 bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400">
-                          <a href="#">
+                          <a >
                               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">In progress </h5>
                           </a>
                           <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">In progress </p>
-                          <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                          <a  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                           In progress
                               <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                           </a>
@@ -230,15 +230,15 @@ const Home = () => {
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
-                      <a href="#">
+                      <a >
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
                       <div class="p-5 bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400">
-                          <a href="#">
-                              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">In progress </h5>
+                          <a >
+                              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">In progress </h5>
                           </a>
                           <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">In progress </p>
-                          <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                          <a  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                           In progress
                               <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                           </a>
@@ -249,15 +249,15 @@ const Home = () => {
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
-                      <a href="#">
+                      <a >
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
                       <div class="p-5 bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400">
-                          <a href="#">
+                          <a >
                               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">In progress </h5>
                           </a>
                           <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">In progress </p>
-                          <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                          <a  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                           In progress
                               <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                           </a>
@@ -268,15 +268,15 @@ const Home = () => {
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
-                      <a href="#">
+                      <a >
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
                       <div class="p-5 bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400">
-                          <a href="#">
+                          <a >
                               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">In progress </h5>
                           </a>
                           <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">In progress </p>
-                          <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                          <a class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                           In progress
                               <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                           </a>
@@ -401,15 +401,15 @@ const Home = () => {
             <div className='ml-3'>
             <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500">
-                      <a href="#">
+                      <a >
                           <lottie-player  src="https://assets8.lottiefiles.com/packages/lf20_YZb2Qu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                       </a>
                       <div class="p-5 bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-400">
-                          <a href="#">
+                          <a >
                               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">In progress </h5>
                           </a>
                           <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">In progress </p>
-                          <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                          <a  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                           In progress
                               <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                           </a>

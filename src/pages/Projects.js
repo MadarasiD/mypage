@@ -4,13 +4,13 @@ import Layout from '../components/Layout'
 const Projects = () => {
   return (
     <Layout>
-        <div>
-        <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 pb-5 pr-3' >
+        <div className='w-100'>
+        <div className='bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 pb-5 pr-3 ' >
 
           <h1 className='text-white text-center text-6xl pt-20 pb-20'>My Projects</h1>
 
           <h2 className='text-white text-center text-2xl pb-10'>Projects are being prepared and submitted on an ongoing basis.</h2>
-          <div className='grid md:grid-cols-2 grid-cols-6 text-white'>
+          <div className='grid md:grid-cols-2 grid-cols-6 text-white '>
           <div className='ml-3'>
           <h2 className='text-white text-center pb-3'>This is my first project</h2>
                   <div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-500 ">
