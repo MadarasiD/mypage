@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <Layout>
     
-      <div className="bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 flex justify-center h-100 p-40">
+      <div className="bg-gradient-to-b from-neutral-800	 via-neutral-600 to-neutral-800 flex justify-center h-screen p-40">
 
         <div className='md:w-full w-1/2 p-10  shadow-lg shadow-indigo-200	'>
                  
